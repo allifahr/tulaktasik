@@ -39,7 +39,7 @@
                  @endforeach
                </select>
 
-				    </div>
+					</div>
 				    <div class="col-xs-6 col-sm-3">
 						<select id="priceID">
 						    <option value="">Select Price Range</option>
@@ -55,9 +55,9 @@
 					<div class="row">
 
 						<div class="col-sm-4 pull-right">
-							<button id="findBtn" class="btn btn-success">Find</button>
+							<button id="findBtn" class="btn btn-success">Cari</button>
 						</div>
-						<div class="styleNm">16 style(s)</div>
+						<div class="styleNm"></div>
 					</div>
 				</div>
         @endif

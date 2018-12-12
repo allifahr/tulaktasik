@@ -21,7 +21,7 @@
                 <div class="col-sm-3">
                   <div class="wht-box">
                     <div class="wht-boxHd">Shopping Cart</div>
-                    <div class="bwhtlk-boxTxt hidden-sm">Do you want to look on order?</div>
+                    <div class="bwhtlk-boxTxt hidden-sm" style="color:#000000">Do you want to look on order?</div>
                     
                   </div>
                 </div>
@@ -131,8 +131,7 @@
                                     </div>
                                     <div class="col-xs-12 col-sm-3 col-md-3">
                                       <h6>Unit Price</h6>
-                                      <p>${{$pro->price}}
-                                      </p>
+                                      <p>Rp {{$pro->price}}</p>
 
                                       <hr/>
                                       <h6 class="redtext">
@@ -155,15 +154,15 @@
                                   <tbody>
                                     <tr>
                                       <td>Sub Total</td>
-                                      <td>$ {{Cart::subtotal()}}</td>
+                                      <td>Rp {{Cart::subtotal()}}</td>
                                     </tr>
                                     <tr>
                                       <td>Tax (%)</td>
-                                      <td>$ {{Cart::tax()}}</td>
+                                      <td>Rp {{Cart::tax()}}</td>
                                     </tr>
                                     <tr>
                                       <td>Grand Total</td>
-                                      <td>$ {{Cart::total()}}</td>
+                                      <td>Rp {{Cart::total()}}</td>
                                     </tr>
                                   </tbody>
                                 </table>

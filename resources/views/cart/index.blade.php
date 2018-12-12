@@ -125,7 +125,7 @@
                                     </div>
                                     <div class="col-xs-12 col-sm-3 col-md-3">
                                       <h6>Unit Price</h6>
-                                      <p>${{$pro->price}}
+                                      <p>Rp {{$pro->price}}
                                       </p>
 
                                       <hr/>
@@ -160,22 +160,24 @@
                                   <tbody>
                                     <tr>
                                       <td>Sub Total</td>
-                                      <td>$ {{Cart::subtotal()}}</td>
+                                      <td>Rp {{Cart::subtotal()}}</td>
                                     </tr>
                                     <tr>
                                       <td>Tax (%)</td>
-                                      <td>$ {{Cart::tax()}}</td>
+                                      <td>Rp {{Cart::tax()}}</td>
                                     </tr>
                                    
                                   
                                     <tr>
                                       <td>Grand Total</td>
-                                      <td>$ {{Cart::total()}}</td>
+                                      <td>Rp {{Cart::total()}}</td>
                                     </tr>
                                   </tbody>
                                 </table>
-                          
-                         <a href="{{url('checkout')}}" class="btn check_out btn-block">checkout</a>
+                               
+                         <a href="{{url('/products')}}" class="btn update btn-block" >Lanjutkan Belanja</a> 
+                         <a href="{{url('checkout')}}" class="btn check_out btn-block">Checkout</a>
+                         
                                 </div>
                               </div>
                         </div>
